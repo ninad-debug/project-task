@@ -1,0 +1,37 @@
+.movie-card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.2s ease-in-out;
+}
+
+.movie-card:hover {
+  transform: scale(1.05);
+}
+
+.movie-image {
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #ddd;
+}
+
+.movie-details {
+  padding: 10px;
+}
+
+.movie-title {
+  margin: 0;
+  font-size: 1.2em;
+}
+
+.movie-rating {
+  margin: 5px 0;
+  color: #555;
+}
+
+@media (max-width: 600px) {
+  .movie-card {
+    margin-bottom: 20px;
+  }
+}

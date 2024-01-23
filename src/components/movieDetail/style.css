@@ -1,0 +1,62 @@
+.movie-detail-page {
+  padding: 20px;
+  font-size: 28px;
+}
+
+.movie-detail-container {
+  display: flex;
+}
+
+.movie-detail-image {
+  width: 300px;
+  height: auto;
+  margin-right: 20px;
+}
+
+.movie-detail-content {
+  flex: 1;
+}
+
+.movie-detail-title {
+  margin: 0;
+  color: 1.5em;
+}
+
+.movie-detail-rating {
+  margin: 10px 0;
+  color: #1e5162;
+}
+
+.movie-detail-genre {
+  margin: 5px 0;
+  color: #555;
+}
+
+.genre {
+  display: inline-block;
+  padding: 10px;
+  background-color: lightblue;
+  margin: 5px;
+  text-align: center;
+}
+
+.movie-detail-description {
+  line-height: 1.5;
+}
+
+@media (max-width: 800px) {
+  .movie-detail-container {
+    flex-direction: column;
+  }
+
+  .movie-detail-image {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .span {
+    width: 100%;
+    margin: 5px 0;
+  }
+}

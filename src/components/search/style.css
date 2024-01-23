@@ -1,0 +1,15 @@
+.body {
+  padding: 20px;
+}
+
+.movies-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+@media (max-width: 600px) {
+  .movies-container {
+    grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
+  }
+}

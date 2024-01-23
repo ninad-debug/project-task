@@ -1,0 +1,44 @@
+.cast-card {
+  display: flex;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.2s ease-in-out;
+}
+
+.cast-card:hover {
+  transform: scale(1.05);
+}
+
+.cast-image {
+  width: 100px;
+  object-fit: cover;
+  border-radius: 8px 0 0 8px;
+}
+
+.cast-details {
+  padding: 10px;
+}
+
+.cast-name {
+  margin: 0;
+  font-size: 1.2em;
+}
+
+.cast-character {
+  margin: 5px 0;
+  color: #555;
+}
+
+@media (max-width: 600px) {
+  .cast-card {
+    flex-direction: column;
+  }
+
+  .cast-image {
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+    height: 100%;
+  }
+}
